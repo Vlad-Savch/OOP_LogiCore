@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogiCore.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:LogiCore.Domain.Services.StatePersistenceService">
+            <summary>Stores the application state as a flat JSON DTO snapshot.</summary>
+        </member>
+    </members>
+</doc>

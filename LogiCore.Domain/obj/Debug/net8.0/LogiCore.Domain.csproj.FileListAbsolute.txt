@@ -1,0 +1,13 @@
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\bin\Debug\net8.0\LogiCore.Domain.deps.json
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\bin\Debug\net8.0\LogiCore.Domain.dll
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\bin\Debug\net8.0\LogiCore.Domain.pdb
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\bin\Debug\net8.0\LogiCore.Domain.xml
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\LogiCore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\LogiCore.Domain.AssemblyInfoInputs.cache
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\LogiCore.Domain.AssemblyInfo.cs
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\LogiCore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\LogiCore.Domain.dll
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\refint\LogiCore.Domain.dll
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\LogiCore.Domain.xml
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\LogiCore.Domain.pdb
+C:\Users\Jeli\RiderProjects\OOP_Project\LogiCore.Domain\obj\Debug\net8.0\ref\LogiCore.Domain.dll

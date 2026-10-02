@@ -1,0 +1,357 @@
+{
+  "Revenue": 49030.5122993438857525000,
+  "Vehicles": [
+    {
+      "Id": "0b21fc02-1efe-48ae-8367-1bc5e2f41937",
+      "Kind": "Truck",
+      "RegistrationNumber": "TRK-101",
+      "MaxLoadKg": 20000,
+      "MaxVolumeM3": 82,
+      "AverageSpeedKmH": 75,
+      "BaseRatePerKm": 2.5,
+      "TollCoefficient": 0.1,
+      "MinTemperatureC": 0,
+      "MaxTemperatureC": 0
+    },
+    {
+      "Id": "6cb70f44-727d-46ab-947b-48a132722e66",
+      "Kind": "Truck",
+      "RegistrationNumber": "TRK-102",
+      "MaxLoadKg": 20000,
+      "MaxVolumeM3": 82,
+      "AverageSpeedKmH": 75,
+      "BaseRatePerKm": 2.5,
+      "TollCoefficient": 0.1,
+      "MinTemperatureC": 0,
+      "MaxTemperatureC": 0
+    },
+    {
+      "Id": "1ed3ade3-65b7-4624-8cbf-a9f79f399d96",
+      "Kind": "RefrigeratorTruck",
+      "RegistrationNumber": "REF-201",
+      "MaxLoadKg": 18000,
+      "MaxVolumeM3": 72,
+      "AverageSpeedKmH": 70,
+      "BaseRatePerKm": 3,
+      "TollCoefficient": 0,
+      "MinTemperatureC": -20,
+      "MaxTemperatureC": 8
+    },
+    {
+      "Id": "8bfcf515-8504-4522-9fc3-5c2e541f8ab3",
+      "Kind": "CargoPlane",
+      "RegistrationNumber": "PLN-301",
+      "MaxLoadKg": 50000,
+      "MaxVolumeM3": 300,
+      "AverageSpeedKmH": 800,
+      "BaseRatePerKm": 7,
+      "TollCoefficient": 0,
+      "MinTemperatureC": 0,
+      "MaxTemperatureC": 0
+    },
+    {
+      "Id": "f611a5cc-501b-41c0-9098-42e1efe99105",
+      "Kind": "CargoShip",
+      "RegistrationNumber": "SHP-401",
+      "MaxLoadKg": 200000,
+      "MaxVolumeM3": 5000,
+      "AverageSpeedKmH": 35,
+      "BaseRatePerKm": 0.8,
+      "TollCoefficient": 0,
+      "MinTemperatureC": 0,
+      "MaxTemperatureC": 0
+    },
+    {
+      "Id": "f723a862-6a90-42f3-88f4-9cc114ce4386",
+      "Kind": "DroneCourier",
+      "RegistrationNumber": "DRN-501",
+      "MaxLoadKg": 20,
+      "MaxVolumeM3": 0.15,
+      "AverageSpeedKmH": 70,
+      "BaseRatePerKm": 12,
+      "TollCoefficient": 0,
+      "MinTemperatureC": 0,
+      "MaxTemperatureC": 0
+    }
+  ],
+  "Customers": [
+    {
+      "Id": "ade3dcf0-19b3-40c2-b95d-b6600cc8b2b3",
+      "Name": "\u041E\u041E\u041E \u0410\u043B\u044C\u0444\u0430",
+      "Contact": "\u002B7-900-000-01-01"
+    },
+    {
+      "Id": "1af70276-6e56-447f-a2a0-23d6b2d9461f",
+      "Name": "\u0418\u041F \u0411\u0435\u0442\u0430",
+      "Contact": "\u002B7-900-000-02-02"
+    },
+    {
+      "Id": "e33ff2c2-d144-4daa-9e27-ac24c020226e",
+      "Name": "\u041E\u041E\u041E \u0413\u0430\u043C\u043C\u0430",
+      "Contact": "\u002B7-900-000-03-03"
+    }
+  ],
+  "Cargo": [
+    {
+      "Id": "4f4d4bfe-8657-4eb3-8bcd-6aaa9ccde93d",
+      "Kind": "PerishableCargo",
+      "Description": "\u0424\u0440\u0443\u043A\u0442\u044B",
+      "WeightKg": 1200,
+      "VolumeM3": 10,
+      "DeclaredValue": 150000,
+      "ExpirationDate": "2026-10-12T23:24:13.4095075Z",
+      "RequiredTemperatureC": 4,
+      "RiskCoefficient": 0,
+      "CanBeStacked": false,
+      "HazardClass": 0,
+      "LengthM": 0,
+      "WidthM": 0,
+      "HeightM": 0
+    },
+    {
+      "Id": "2157ee7d-e978-43ab-af8d-2d7d88119099",
+      "Kind": "FragileCargo",
+      "Description": "\u0421\u0442\u0435\u043A\u043B\u043E",
+      "WeightKg": 400,
+      "VolumeM3": 5,
+      "DeclaredValue": 300000,
+      "ExpirationDate": "0001-01-01T00:00:00",
+      "RequiredTemperatureC": 0,
+      "RiskCoefficient": 1.5,
+      "CanBeStacked": false,
+      "HazardClass": 0,
+      "LengthM": 0,
+      "WidthM": 0,
+      "HeightM": 0
+    },
+    {
+      "Id": "42588592-2d9b-4730-aed9-e87c27aea382",
+      "Kind": "StandardCargo",
+      "Description": "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u0438\u043A\u0430",
+      "WeightKg": 500,
+      "VolumeM3": 4,
+      "DeclaredValue": 800000,
+      "ExpirationDate": "0001-01-01T00:00:00",
+      "RequiredTemperatureC": 0,
+      "RiskCoefficient": 0,
+      "CanBeStacked": false,
+      "HazardClass": 0,
+      "LengthM": 0,
+      "WidthM": 0,
+      "HeightM": 0
+    },
+    {
+      "Id": "122cb1d3-82e1-4c50-9922-7081ef8a05cd",
+      "Kind": "StandardCargo",
+      "Description": "\u0422\u0435\u043A\u0441\u0442\u0438\u043B\u044C",
+      "WeightKg": 800,
+      "VolumeM3": 8,
+      "DeclaredValue": 200000,
+      "ExpirationDate": "0001-01-01T00:00:00",
+      "RequiredTemperatureC": 0,
+      "RiskCoefficient": 0,
+      "CanBeStacked": false,
+      "HazardClass": 0,
+      "LengthM": 0,
+      "WidthM": 0,
+      "HeightM": 0
+    },
+    {
+      "Id": "3a73fcf9-b06e-4655-8ca5-7749f2d54f22",
+      "Kind": "OversizedCargo",
+      "Description": "\u041F\u0440\u043E\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u044B\u0439 \u0441\u0442\u0430\u043D\u043E\u043A",
+      "WeightKg": 7000,
+      "VolumeM3": 60,
+      "DeclaredValue": 2500000,
+      "ExpirationDate": "0001-01-01T00:00:00",
+      "RequiredTemperatureC": 0,
+      "RiskCoefficient": 0,
+      "CanBeStacked": false,
+      "HazardClass": 0,
+      "LengthM": 6,
+      "WidthM": 2.4,
+      "HeightM": 2.8
+    },
+    {
+      "Id": "c0c08d69-7daf-4196-b925-449f88699c55",
+      "Kind": "StandardCargo",
+      "Description": "\u041C\u0435\u0431\u0435\u043B\u044C",
+      "WeightKg": 1000,
+      "VolumeM3": 10,
+      "DeclaredValue": 500000,
+      "ExpirationDate": "0001-01-01T00:00:00",
+      "RequiredTemperatureC": 0,
+      "RiskCoefficient": 0,
+      "CanBeStacked": false,
+      "HazardClass": 0,
+      "LengthM": 0,
+      "WidthM": 0,
+      "HeightM": 0
+    }
+  ],
+  "Orders": [
+    {
+      "Id": "867c9cd4-6177-4787-aab0-c643f59528ab",
+      "CustomerId": "ade3dcf0-19b3-40c2-b95d-b6600cc8b2b3",
+      "CargoIds": [
+        "4f4d4bfe-8657-4eb3-8bcd-6aaa9ccde93d",
+        "2157ee7d-e978-43ab-af8d-2d7d88119099"
+      ],
+      "Route": [
+        {
+          "Latitude": 55.7558,
+          "Longitude": 37.6173,
+          "Name": "\u041C\u043E\u0441\u043A\u0432\u0430"
+        },
+        {
+          "Latitude": 55.8,
+          "Longitude": 37.7,
+          "Name": "\u0421\u0435\u0432\u0435\u0440"
+        },
+        {
+          "Latitude": 55.9,
+          "Longitude": 37.8,
+          "Name": "\u0421\u043A\u043B\u0430\u0434"
+        }
+      ],
+      "VehicleId": "1ed3ade3-65b7-4624-8cbf-a9f79f399d96",
+      "TotalCost": 5908.5958323419363375000,
+      "Status": 3
+    },
+    {
+      "Id": "57055f8a-951f-45cb-b92a-1898a18b890b",
+      "CustomerId": "1af70276-6e56-447f-a2a0-23d6b2d9461f",
+      "CargoIds": [
+        "42588592-2d9b-4730-aed9-e87c27aea382"
+      ],
+      "Route": [
+        {
+          "Latitude": 55.7558,
+          "Longitude": 37.6173,
+          "Name": "\u041C\u043E\u0441\u043A\u0432\u0430"
+        },
+        {
+          "Latitude": 55.8,
+          "Longitude": 37.7,
+          "Name": "\u0421\u0435\u0432\u0435\u0440"
+        },
+        {
+          "Latitude": 55.9,
+          "Longitude": 37.8,
+          "Name": "\u0421\u043A\u043B\u0430\u0434"
+        }
+      ],
+      "VehicleId": "f611a5cc-501b-41c0-9098-42e1efe99105",
+      "TotalCost": 8012.531028728251760,
+      "Status": 3
+    },
+    {
+      "Id": "2b871058-d2f0-4207-be62-799ce7536bc3",
+      "CustomerId": "1af70276-6e56-447f-a2a0-23d6b2d9461f",
+      "CargoIds": [
+        "122cb1d3-82e1-4c50-9922-7081ef8a05cd"
+      ],
+      "Route": [
+        {
+          "Latitude": 55.7558,
+          "Longitude": 37.6173,
+          "Name": "\u041C\u043E\u0441\u043A\u0432\u0430"
+        },
+        {
+          "Latitude": 55.8,
+          "Longitude": 37.7,
+          "Name": "\u0421\u0435\u0432\u0435\u0440"
+        },
+        {
+          "Latitude": 55.9,
+          "Longitude": 37.8,
+          "Name": "\u0421\u043A\u043B\u0430\u0434"
+        }
+      ],
+      "VehicleId": "f611a5cc-501b-41c0-9098-42e1efe99105",
+      "TotalCost": 2012.531028728251760,
+      "Status": 3
+    },
+    {
+      "Id": "7ad9773e-6f8b-43c2-98cf-c6fccac27c2c",
+      "CustomerId": "1af70276-6e56-447f-a2a0-23d6b2d9461f",
+      "CargoIds": [
+        "2157ee7d-e978-43ab-af8d-2d7d88119099"
+      ],
+      "Route": [
+        {
+          "Latitude": 55.7558,
+          "Longitude": 37.6173,
+          "Name": "\u041C\u043E\u0441\u043A\u0432\u0430"
+        },
+        {
+          "Latitude": 55.8,
+          "Longitude": 37.7,
+          "Name": "\u0421\u0435\u0432\u0435\u0440"
+        },
+        {
+          "Latitude": 55.9,
+          "Longitude": 37.8,
+          "Name": "\u0421\u043A\u043B\u0430\u0434"
+        }
+      ],
+      "VehicleId": "f611a5cc-501b-41c0-9098-42e1efe99105",
+      "TotalCost": 3012.531028728251760,
+      "Status": 3
+    },
+    {
+      "Id": "c68e3fdf-d48e-4d65-a165-a98faa333230",
+      "CustomerId": "1af70276-6e56-447f-a2a0-23d6b2d9461f",
+      "CargoIds": [
+        "3a73fcf9-b06e-4655-8ca5-7749f2d54f22"
+      ],
+      "Route": [
+        {
+          "Latitude": 55.7558,
+          "Longitude": 37.6173,
+          "Name": "\u041C\u043E\u0441\u043A\u0432\u0430"
+        },
+        {
+          "Latitude": 55.8,
+          "Longitude": 37.7,
+          "Name": "\u0421\u0435\u0432\u0435\u0440"
+        },
+        {
+          "Latitude": 55.9,
+          "Longitude": 37.8,
+          "Name": "\u0421\u043A\u043B\u0430\u0434"
+        }
+      ],
+      "VehicleId": "0b21fc02-1efe-48ae-8367-1bc5e2f41937",
+      "TotalCost": 25071.792352088942375,
+      "Status": 3
+    },
+    {
+      "Id": "cbd298c1-3e16-489f-bfbc-d5d243e7bb13",
+      "CustomerId": "e33ff2c2-d144-4daa-9e27-ac24c020226e",
+      "CargoIds": [
+        "c0c08d69-7daf-4196-b925-449f88699c55"
+      ],
+      "Route": [
+        {
+          "Latitude": 55.7558,
+          "Longitude": 37.6173,
+          "Name": "\u041C\u043E\u0441\u043A\u0432\u0430"
+        },
+        {
+          "Latitude": 55.8,
+          "Longitude": 37.7,
+          "Name": "\u0421\u0435\u0432\u0435\u0440"
+        },
+        {
+          "Latitude": 55.9,
+          "Longitude": 37.8,
+          "Name": "\u0421\u043A\u043B\u0430\u0434"
+        }
+      ],
+      "VehicleId": "f611a5cc-501b-41c0-9098-42e1efe99105",
+      "TotalCost": 5012.531028728251760,
+      "Status": 3
+    }
+  ]
+}
