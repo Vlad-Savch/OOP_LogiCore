@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogiCore.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef77a9c61e05d055afc34c47098504440c3bcddc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1dc9e1ccc2b428f34ebdd43577f91ebc9c70a44")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogiCore.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogiCore.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
